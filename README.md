@@ -1,1 +1,1 @@
-# qiita_article_gas_getPrList
+# qiita記事公開用のGASスクリプト
