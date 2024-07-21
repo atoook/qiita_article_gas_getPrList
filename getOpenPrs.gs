@@ -13,7 +13,7 @@ function doPost(e) {
   const CHANNEL_NAME = "your_target_channel_name";
   if (e.parameter.command === COMMAND) {
     if (e.parameter.token !== VARIFICATION_TOKEN) {
-      writeLogsInSpreadSheet(`invalid request**** ${e.parameter.command}`);
+      // writeLogsInSpreadSheet(`invalid request**** ${e.parameter.command}`);
 
       return ContentService.createTextOutput("不正なリクエストです。");
     }
